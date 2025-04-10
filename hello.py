@@ -11,9 +11,6 @@ data["CURRENT_SPEED"] = pd.to_numeric(data["CURRENT_SPEED"], errors="coerce")
 
 # table(data)
 
-
-
-
 def draw_map(name, data):
     text(f"# {name}")
 
